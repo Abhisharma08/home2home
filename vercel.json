@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/luxury-cafe-furniture/:path*",
+      "destination": "https://home2home-cafe.vercel.app/luxury-cafe-furniture/:path*"
+    } 
+  ]
+}
