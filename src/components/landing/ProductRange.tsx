@@ -4,12 +4,12 @@ import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const productCategories = [
-  { name: 'Outdoor Furniture', imageId: 'outdoor-furniture', description: 'Elegant and durable pieces designed for open spaces and modern outdoor living.' },
-  { name: 'Office Furniture', imageId: 'office-furniture', description: 'Functional designs that bring comfort, efficiency, and sophistication to workspaces.' },
-  { name: 'Living Room Furniture', imageId: 'living-room-furniture', description: 'Statement pieces crafted to elevate everyday living with warmth and style.' },
-  { name: 'Bedroom Furniture', imageId: 'bedroom-furniture', description: 'Thoughtfully designed furniture that blends comfort, utility, and timeless aesthetics.' },
-  { name: 'Dining Furniture', imageId: 'dining-furniture', description: 'Beautifully crafted dining collections made for gatherings and lasting memories.' },
-  { name: 'Cafe & Bar', imageId: 'cafe-bar', description: 'Stylish seating and tables tailored for modern cafés, restaurants, and hospitality spaces.' },
+  { name: 'Outdoor Furniture', imageId: 'outdoor-furniture', description: 'Elegant and durable pieces designed for open spaces and modern outdoor living' },
+  { name: 'Office Furniture', imageId: 'office-furniture', description: 'Functional designs that bring comfort, efficiency, and sophistication to workspaces' },
+  { name: 'Living Room Furniture', imageId: 'living-room-furniture', description: 'Statement pieces crafted to elevate everyday living with warmth and style' },
+  { name: 'Bedroom Furniture', imageId: 'bedroom-furniture', description: 'Thoughtfully designed furniture that blends comfort, utility, and timeless aesthetics' },
+  { name: 'Dining Furniture', imageId: 'dining-furniture', description: 'Beautifully crafted dining collections made for gatherings and lasting memories' },
+  { name: 'Cafe & Bar', imageId: 'cafe-bar', description: 'Stylish seating and tables tailored for modern cafés, restaurants, and hospitality spaces' },
 ];
 
 const ProductRange = () => {
