@@ -41,7 +41,7 @@ const ProductRange = () => {
                 </div>
                 <h3 className="text-xl font-headline font-bold text-primary mb-1">{category.name}</h3>
                 <p className="text-slate-700 font-bold mb-4">{category.description}</p>
-                <Link href="#form" className="text-sm text-accent hover:underline uppercase font-semibold tracking-wider">
+                <Link href="#form" className="text-sm text-accent hover:underline border-2 border-primary rounded-md py-2 px-4 uppercase font-bold tracking-wider">
                   Enquire Now
                 </Link>
               </div>

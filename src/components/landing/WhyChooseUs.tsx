@@ -65,23 +65,21 @@ const WhyChooseUs = () => {
                   ${index === 4 ? 'lg:col-start-4' : ''}
                 `}
               >
-                <CardHeader className="flex flex-row items-start gap-4">
-                  <div className="bg-primary p-3 rounded-full">
-                    <Icon className="h-8 w-9 text-accent" />
-                  </div>
+<CardHeader className="flex flex-col items-center text-center gap-4">
+  <div className="bg-primary p-3 rounded-full">
+    <Icon className="h-8 w-9 text-accent" />
+  </div>
 
-                  <div>
-                    <CardTitle className="font-headline text-2xl text-primary-foreground">
-                      {reason.title}
-                    </CardTitle>
-                  </div>
-                </CardHeader>
+  <CardTitle className="font-headline text-2xl text-primary-foreground">
+    {reason.title}
+  </CardTitle>
+</CardHeader>
 
-                <CardContent>
-                  <p className="text-primary-foreground/80">
-                    {reason.description}
-                  </p>
-                </CardContent>
+<CardContent className="text-center">
+  <p className="text-primary-foreground/80">
+    {reason.description}
+  </p>
+</CardContent>
               </Card>
             );
           })}
