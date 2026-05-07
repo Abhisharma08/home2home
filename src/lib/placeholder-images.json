@@ -8,37 +8,37 @@
     },
     {
       "id": "outdoor-furniture",
-      "description": "Stylish outdoor furniture on a patio with a red carpet.",
+      "description": "Elegant and durable pieces designed for open spaces and modern outdoor living.",
       "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1766821065/Outdoor_l1usg6.jpg",
       "imageHint": "outdoor furniture"
     },
     {
       "id": "office-furniture",
-      "description": "A wooden display case in a rustic office setting.",
+      "description": "Functional designs that bring comfort, efficiency, and sophistication to workspaces.",
       "imageUrl": "https://images.unsplash.com/photo-1571624436279-b272aff752b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjBmdXJuaXR1cmV8ZW58MHx8fHwxNzY0NzQ1NjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "office furniture"
     },
     {
       "id": "living-room-furniture",
-      "description": "A modern living room with a red sofa and a wooden coffee table.",
+      "description": "Statement pieces crafted to elevate everyday living with warmth and style.",
       "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1766821064/Living_Room_hyk6gf.jpg",
       "imageHint": "living room"
     },
     {
       "id": "bedroom-furniture",
-      "description": "A bedroom with cowhide chairs and eclectic decor.",
+      "description": "Thoughtfully designed furniture that blends comfort, utility, and timeless aesthetics.",
       "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1766821065/Bedroom_cqjsdd.jpg",
       "imageHint": "bedroom furniture"
     },
     {
       "id": "dining-furniture",
-      "description": "A dining room with striped walls and a large clock.",
+      "description": "Beautifully crafted dining collections made for gatherings and lasting memories.",
       "imageUrl": "https://images.unsplash.com/photo-1758977403395-5ae10579231f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkaW5pbmclMjBmdXJuaXR1cmV8ZW58MHx8fHwxNzY0NzQ1NjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dining furniture"
     },
     {
       "id": "cafe-bar",
-      "description": "A cozy cafe with comfortable armchairs and small tables.",
+      "description": "Stylish seating and tables tailored for modern cafés, restaurants, and hospitality spaces.",
       "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1766821061/Cafe_and_Bar_1_wpgnmr.jpg",
       "imageHint": "cafe bar"
     },

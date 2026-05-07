@@ -4,12 +4,12 @@ import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const productCategories = [
-  { name: 'Outdoor Furniture', imageId: 'outdoor-furniture' },
-  { name: 'Office Furniture', imageId: 'office-furniture' },
-  { name: 'Living Room Furniture', imageId: 'living-room-furniture' },
-  { name: 'Bedroom Furniture', imageId: 'bedroom-furniture' },
-  { name: 'Dining Furniture', imageId: 'dining-furniture' },
-  { name: 'Cafe & Bar', imageId: 'cafe-bar' },
+  { name: 'Outdoor Furniture', imageId: 'outdoor-furniture', description: 'Elegant and durable pieces designed for open spaces and modern outdoor living.' },
+  { name: 'Office Furniture', imageId: 'office-furniture', description: 'Functional designs that bring comfort, efficiency, and sophistication to workspaces.' },
+  { name: 'Living Room Furniture', imageId: 'living-room-furniture', description: 'Statement pieces crafted to elevate everyday living with warmth and style.' },
+  { name: 'Bedroom Furniture', imageId: 'bedroom-furniture', description: 'Thoughtfully designed furniture that blends comfort, utility, and timeless aesthetics.' },
+  { name: 'Dining Furniture', imageId: 'dining-furniture', description: 'Beautifully crafted dining collections made for gatherings and lasting memories.' },
+  { name: 'Cafe & Bar', imageId: 'cafe-bar', description: 'Stylish seating and tables tailored for modern cafés, restaurants, and hospitality spaces.' },
 ];
 
 const ProductRange = () => {
@@ -17,7 +17,7 @@ const ProductRange = () => {
     <section id="products" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <p className="font-semibold uppercase tracking-widest text-accent mb-2">Crafted With Love</p>
+          <p className="font-semibold uppercase tracking-widest text-accent mb-2">Crafted With Purpose. Designed To Last.</p>
           <h2 className="text-4xl md:text-5xl font-headline font-bold text-primary">
             Our Product Range
           </h2>
@@ -40,6 +40,7 @@ const ProductRange = () => {
                   )}
                 </div>
                 <h3 className="text-xl font-headline font-bold text-primary mb-1">{category.name}</h3>
+                <p className="text-slate-700 font-bold mb-4">{category.description}</p>
                 <Link href="#form" className="text-sm text-accent hover:underline uppercase font-semibold tracking-wider">
                   Enquire Now
                 </Link>

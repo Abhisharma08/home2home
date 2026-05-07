@@ -32,9 +32,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <CoreStrength />
+          <WhyChooseUs />
+          {/* <CoreStrength /> */}
           <ProductRange />
-          {/* <WhyChooseUs /> */}
           <CTASection />
         </main>
       </div>

@@ -1,67 +1,86 @@
-import { Gem, Scaling, Globe, Settings, Users, Leaf } from 'lucide-react';
+import { Leaf, Hammer, Trophy, Factory, PencilRulerIcon  } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 
 const reasons = [
   {
-    icon: Gem,
-    title: 'Direct Quarry Access & Control',
-    description: 'We own and operate our quarries, giving us unparalleled control over material selection, quality, and consistency from the very first step.',
+    icon: Hammer,
+    title: 'Crafted by Experts',
+    description:
+      'Our furniture is created by skilled artisans using solid wood, refined joinery, and timeless craftsmanship trusted by premium global markets.',
   },
   {
-    icon: Scaling,
-    title: 'Precision Manufacturing',
-    description: 'Our state-of-the-art facilities use calibrated machinery and meticulous processes to ensure every piece meets exacting standards for size, thickness, and finish.',
+    icon: Trophy,
+    title: '35+ Years of Legacy',
+    description:
+      'Over three decades of experience in crafting export quality furniture, now available factory direct with complete transparency and value.',
   },
   {
-    icon: Globe,
-    title: 'Global Export Expertise',
-    description: 'With decades of experience in international logistics and packaging, we guarantee secure, timely, and cost-effective delivery to any port worldwide.',
+    icon: Factory,
+    title: 'Manufacturing Excellence',
+    description:
+      'From cutting and carving to upholstery, assembly, and finishing, every piece goes through a carefully monitored production process to ensure superior quality.',
   },
   {
-    icon: Settings,
-    title: 'Customization at Scale',
-    description: 'Our integrated capabilities allow us to fulfill custom orders for unique sizes, intricate cuts, and specialized finishes, even for large-scale projects.',
-  },
-  {
-    icon: Users,
-    title: 'Unmatched Project Support',
-    description: 'From initial consultation to final delivery, our dedicated team provides expert guidance, transparent communication, and proactive problem-solving.',
+    icon: PencilRulerIcon,
+    title: 'Design Versatility',
+    description:
+      'From bespoke home interiors to large scale hospitality and commercial projects, we offer customization, exclusive collections, and bulk manufacturing capabilities.',
   },
   {
     icon: Leaf,
-    title: 'Sustainable & Ethical Sourcing',
-    description: 'We are committed to responsible quarrying practices that minimize environmental impact and ensure the well-being of our communities.',
+    title: 'Sustainably Crafted',
+    description:
+      'Responsibly sourced Sheesham, Mango, and Acacia wood combined with mindful production practices to minimize waste and maximize durability.',
   },
 ];
 
 const WhyChooseUs = () => {
   return (
-    <section id="why-choose-us" className="py-16 md:py-24 bg-background">
+    <section id="why-choose-us" className="py-16 md:py-24 bg-primary text-primary-foreground">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <p className="font-semibold uppercase tracking-widest text-accent mb-2">WHY CHOOSE US?</p>
-          <h2 className="text-4xl md:text-5xl font-headline font-bold text-primary">
-            Unwavering Commitment to Quality and Client Success
+          <h2 className="text-4xl md:text-5xl font-headline font-bold text-accent">
+            WHY CHOOSE US?
           </h2>
+
           <p className="mt-4 max-w-3xl mx-auto text-muted-foreground">
-            We are not just suppliers; we are partners in your success. Our vertically integrated model—from quarry to container—ensures every piece of stone we deliver embodies our commitment to excellence. We provide architects, builders, and importers with a reliable, efficient, and quality-driven supply chain they can trust.
+            We are not just suppliers; we are partners in your success. Our
+            vertically integrated model—from quarry to container—ensures every
+            piece of stone we deliver embodies our commitment to excellence. We
+            provide architects, builders, and importers with a reliable,
+            efficient, and quality-driven supply chain they can trust.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6">
           {reasons.map((reason, index) => {
             const Icon = reason.icon;
+
             return (
-              <Card key={index} className="bg-card border-border text-left shadow-sm hover:shadow-lg transition-shadow duration-300">
+              <Card
+                key={index}
+                className={`bg-primary border-accent/20 text-center shadow-lg hover:shadow-xl transition-shadow duration-300
+                  lg:col-span-2
+                  ${index === 3 ? 'lg:col-start-2' : ''}
+                  ${index === 4 ? 'lg:col-start-4' : ''}
+                `}
+              >
                 <CardHeader className="flex flex-row items-start gap-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
-                    <Icon className="h-6 w-6 text-primary" />
+                  <div className="bg-primary p-3 rounded-full">
+                    <Icon className="h-8 w-9 text-accent" />
                   </div>
+
                   <div>
-                    <CardTitle className="font-headline text-xl text-primary">{reason.title}</CardTitle>
+                    <CardTitle className="font-headline text-2xl text-primary-foreground">
+                      {reason.title}
+                    </CardTitle>
                   </div>
                 </CardHeader>
+
                 <CardContent>
-                  <p className="text-muted-foreground">{reason.description}</p>
+                  <p className="text-primary-foreground/80">
+                    {reason.description}
+                  </p>
                 </CardContent>
               </Card>
             );
