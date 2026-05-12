@@ -1,7 +1,7 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
-  basePath: '/Siliguri-furniture',
+  basePath: '/siliguri-furnitur',
   skipTrailingSlashRedirect: true,
   /* config options here */
   typescript: {
